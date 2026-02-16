@@ -96,3 +96,13 @@ body {
 .btn.gray  { background: #4b5563; }
 
 .btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+}
